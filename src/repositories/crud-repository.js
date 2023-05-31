@@ -53,3 +53,4 @@ class CrudRepository {
 }
 
 module.exports = CrudRepository;
+
