@@ -67,6 +67,7 @@ async function updateSeats(req,res){
             seats: req.body.seats,
             dec:req.body.dec
         });
+        SuccessResponse.data = response;
         return res
                 .status(StatusCodes.OK)
                 .json(SuccessResponse)
